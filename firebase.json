@@ -1,5 +1,9 @@
 {
-  "hosting":[
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "hosting": [
     {
       "target": "han-vue-projects",
       "public": "dist",
