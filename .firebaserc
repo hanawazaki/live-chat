@@ -1,0 +1,17 @@
+{
+  "projects": {
+    "default": "han-vue-projects"
+  },
+  "targets": {
+    "han-vue-projects": {
+      "hosting": {
+        "han-vue-projects": [
+          "han-chatroom"
+        ],
+        "han-chatroom": [
+          "han-vue-projects"
+        ]
+      }
+    }
+  }
+}

@@ -3,15 +3,33 @@ import firebase from 'firebase/app'
 import 'firebase/firestore'
 import 'firebase/auth'
 
+// const firebaseConfig = {
+//     apiKey: "AIzaSyBt9cU269EOYMW4K_3q3T1q-mC-5qYO74c",
+//     authDomain: "blog-vue-a2f67.firebaseapp.com",
+//     databaseURL: "https://blog-vue-a2f67.firebaseio.com",
+//     projectId: "blog-vue-a2f67",
+//     storageBucket: "blog-vue-a2f67.appspot.com",
+//     messagingSenderId: "790507236164",
+//     appId: "1:790507236164:web:7250b22194732da32e4511",
+//     measurementId: "G-DQB6Z7YPD8"
+// };
+
 const firebaseConfig = {
-    apiKey: "AIzaSyBt9cU269EOYMW4K_3q3T1q-mC-5qYO74c",
-    authDomain: "blog-vue-a2f67.firebaseapp.com",
-    databaseURL: "https://blog-vue-a2f67.firebaseio.com",
-    projectId: "blog-vue-a2f67",
-    storageBucket: "blog-vue-a2f67.appspot.com",
-    messagingSenderId: "790507236164",
-    appId: "1:790507236164:web:7250b22194732da32e4511",
-    measurementId: "G-DQB6Z7YPD8"
+
+    apiKey: "AIzaSyDOmfq6yV7r3X4UPlHco5ImcAro49zL6qY",
+
+    authDomain: "han-vue-projects.firebaseapp.com",
+
+    databaseURL: "https://han-vue-projects-default-rtdb.firebaseio.com",
+
+    projectId: "han-vue-projects",
+
+    storageBucket: "han-vue-projects.appspot.com",
+
+    messagingSenderId: "1094291669744",
+
+    appId: "1:1094291669744:web:5972936045270786f17835"
+
 };
 
 // init firebase
@@ -21,4 +39,4 @@ const projectAuth = firebase.auth()
 const projectFirestore = firebase.firestore()
 const timestamp = firebase.firestore.FieldValue.serverTimestamp
 
-export {projectAuth,projectFirestore, timestamp}
+export { projectAuth, projectFirestore, timestamp }
